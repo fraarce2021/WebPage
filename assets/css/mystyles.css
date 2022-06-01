@@ -1,6 +1,8 @@
 :root {
+    /* --MainColor: rgba(240, 145, 145, 0.1);
+    --SubColor: #e9aeae; */
     --MainColor: rgba(240, 145, 145, 0.1);
-    --SubColor: #e9aeae;
+    --SubColor: #02244a;
     --fullwidth: 100%;
 }
 
@@ -13,10 +15,16 @@
     width: 100%;
 }
 
-.navbar-nav a {
+#navbarPrincipal #logo-container img {
+    width: 80px;
+    height: 50px;
+}
+
+
+/* .navbar-nav a {
     border-radius: 6px;
     border-color: var(--SubColor);
-}
+} */
 
 .navbar-nav a svg,
 .navbar-nav a svg {
@@ -57,6 +65,14 @@
     #navbarpages .navbar-nav a {
         padding-left: 10px;
     }
+}
+
+.botonesBloqueado {
+    cursor: not-allowed;
+}
+
+.botonesBloqueado svg text {
+    color: grey;
 }
 
 
@@ -126,3 +142,55 @@
 
 
 /* End Encabezado */
+
+
+/* Begin Sobre Mi */
+
+#sobremi-index img {
+    height: 300px;
+}
+
+#sobremi-index div:nth-child(2) {
+    text-align: -webkit-center;
+}
+
+
+/* End Sobre Mi */
+
+
+/*Begin Conocimientos */
+
+#conocimientos ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#conocimientos ul li {
+    padding: 10px;
+}
+
+#conocimientos ul li img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all 1s ease;
+}
+
+#conocimientos ul li img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+#conocimientos ul li img {
+    width: 120px;
+    height: 90px;
+}
+
+@media only screen and (max-width: 770px) {
+    #conocimientos ul {
+        grid-template-columns: auto auto;
+    }
+}
+
+
+/*End Conocimientos */
