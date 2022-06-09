@@ -1,0 +1,38 @@
+body{
+    color: #112D4E;
+}
+
+header img{
+    float: left;
+    padding-left: 20px;
+    width: 100%;
+    height: 200px;
+}
+
+#sectionCandidatos{
+    padding: 10px;
+    text-align: center;
+}
+
+#sectionCandidatos .carousel .item .card{
+    height: 400px;
+    margin: 10px;
+    width: 90%;
+    background-color: #DBE2EF;
+}
+
+#sectionCandidatos .carousel .item .card img{
+    float: left;
+    height: 80px;
+    width: 60px;
+    box-shadow: 1rem;
+    border-radius: 10px;
+}
+
+#sectionCandidatos .carousel .item .card .flag{
+    float: right;
+    width: 40px;
+    height: 40px;
+}
+
+
