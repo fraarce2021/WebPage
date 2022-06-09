@@ -1,38 +1,40 @@
-body{
+body {
     color: #112D4E;
 }
 
-header img{
-    float: left;
+header img {
     padding-left: 20px;
-    width: 100%;
-    height: 200px;
+    padding-top: 10px;
+    width: 50%;
 }
 
-#sectionCandidatos{
+#sectionCandidatos {
     padding: 10px;
     text-align: center;
 }
 
-#sectionCandidatos .carousel .item .card{
-    height: 400px;
+#sectionCandidatos .carousel .item .card {
+    /* height: 400px; */
     margin: 10px;
-    width: 90%;
+    width: 100%;
     background-color: #DBE2EF;
+    text-align: left;
+    padding: 20px;
 }
 
-#sectionCandidatos .carousel .item .card img{
+#sectionCandidatos .carousel .item .card .imagenes img {
+    margin-bottom: 20px;
+}
+
+#sectionCandidatos .carousel .item .card img.candidato {
+    height: 220px;
+    width: 240px;
     float: left;
-    height: 80px;
-    width: 60px;
-    box-shadow: 1rem;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
-#sectionCandidatos .carousel .item .card .flag{
+#sectionCandidatos .carousel .item .card img.flag {
+    width: 260px;
+    height: 120px;
     float: right;
-    width: 40px;
-    height: 40px;
 }
-
-
